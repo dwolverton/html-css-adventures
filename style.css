@@ -14,7 +14,12 @@ h2 {
 h2 span {
     background-color: #FEBF14;
 }
-
+a {border-color: #7A314B;
+    border-width: 6px;
+    border-style:solid;
+    padding: 5px;
+    
+}
 /* class selector class="watermelon" */
 .watermelon {
     background-color: rgb(194, 66, 87);
