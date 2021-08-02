@@ -1,8 +1,21 @@
-h2 {
-    color: #03324C;
+/* import the Calistoga font before I can use it. */
+@font-face {
+    font-family: Calistoga;
+    src: url("calistoga/Calistoga-Regular.ttf");
 }
 
-span {
-    
+/* element selector */
+h2 {
+    color: #03324C;
+    font-family: Calistoga, sans-serif;
+}
+
+/* "descendant selector" any span inside of any h2 */
+h2 span {
     background-color: #FEBF14;
+}
+
+/* class selector class="watermelon" */
+.watermelon {
+    background-color: rgb(194, 66, 87);
 }
