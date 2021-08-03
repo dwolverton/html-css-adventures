@@ -72,3 +72,29 @@ border-color: #E07D53;
     text-transform: uppercase;
     margin-top: -8px;
 }
+
+label {
+    color: #212529;
+    display: block;
+}
+
+input {
+    width: 100%;
+    /* this changes width to define the width of the border, not the content. */
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    padding: 8px 5px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.side-by-side-inputs {
+    display: flex;
+}
+
+.side-by-side-inputs > div {
+    flex: 1;
+}
+
+.input-div {
+    margin-right: 12px;
+}
