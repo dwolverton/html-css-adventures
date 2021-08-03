@@ -55,3 +55,20 @@ border-color: #E07D53;
     top: 10px;
     left: 10px;
 }
+
+.datebox {
+    width: 100px;
+    height: 100px;
+    background-color: #fd7e14;
+    color: white;
+    text-align: center;
+}
+.datebox-date {
+    font-size: 50px;
+    font-family: Calistoga, sans-serif;
+}
+.datebox-month {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: -8px;
+}
